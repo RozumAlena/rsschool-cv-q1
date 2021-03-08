@@ -14,21 +14,26 @@ body {
     font-weight: normal;
     line-height: 27px;
     color: #0c0b0b;
-    background-color: rgb(211, 204, 204);
+    background-color: rgb(94, 91, 91);
 }
  .wrapper {
      max-width: 1200px;
-     margin: 0 auto;
+     margin: 40px auto;
+     padding: 10px;
+    background:rgb(211, 204, 204);
+    border-radius: 4px;
+    
      
    }
    .wrapper_photo {
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
+    
     margin: 50px;   
    }
    .title {
-    font-size: 24px;
+    font-size: 28px;
     font-style: italic;
     font-weight: 600;
     margin: 50px;
@@ -37,6 +42,75 @@ body {
     border-radius: 50px;
    }
    .contacts {
-   /* display: flex;
-    flex-wrap: wrap;*/
+       margin-bottom: 40px;
+      padding: 10px;
+      
+   }
+   .contacts_title {
+       border-bottom: 2px double grey;
+       font-weight: 600;
+       text-align: center;
+   
+   }
+   .contacts_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;    
+   }
+   .contacts_item {
+       text-decoration: none;
+       color:rgb(44, 41, 41);
+   }
+   .wrapper_info {
+       display: flex;
+       justify-content: space-around;
+
+   }
+   .info_left {
+       width: 60%;
+   }
+   .info_right {
+       
+   }
+   .summary_title {
+    border-bottom: 2px double grey;
+       width: 90px;
+       font-weight: 600;
+       margin-bottom: 20px;
+   }
+   .summary, .experience, .education {
+       margin-bottom: 40px;;
+   }
+   .experience_title {
+    border-bottom: 2px double grey;
+    width: 160px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   }
+   .education_title {
+    border-bottom: 2px double grey;
+    width: 100px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   }
+   .skills_title, .skills_com_title, .english_title, .skills_prof_title {
+    border-bottom: 2px double grey;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2px;
+   }
+   .skills {
+       margin-bottom: 10px;
+   }
+   .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .footer>a {
+    text-decoration: none;
+    color:rgb(44, 41, 41);
    }
